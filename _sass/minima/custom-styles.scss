@@ -1,0 +1,30 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-title {
+  color: $text-color !important;
+}
+
+.nav-item {
+  color: $site-nav-color !important;
+}
+
+.post-link {
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+
+.post-list
+.post-link {
+  color: $text-color;
+}
+
+.post-title {
+  color: $text-color;
+}
+
+.post-content h1, h2, h3, h4 {
+  color: $text-color !important;
+}

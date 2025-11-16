@@ -1,0 +1,29 @@
+// Placeholder to allow overriding predefined variables smoothly.
+
+// Light mode
+$lm-site-nav-color:        $lm-brand-color !default;
+
+// Dark mode
+$dm-brand-color:           #f1f1f1 !default;
+$dm-brand-color-dimmed:    darken($dm-brand-color, 25%) !default;
+$dm-site-nav-color:        $dm-brand-color-light !default;
+$dm-heading-color:         #f1f1f1 !default;
+$dm-text-color:            #f1f1f1;
+
+// Skin selection
+$site-nav-color: $lm-site-nav-color;
+@if $color-scheme-auto {
+  @media (prefers-color-scheme: dark) {
+    $brand-color: $dm-brand-color;
+    $brand-dimmed: $dm-brand-color-dimmed;
+    $heading-color: $dm-heading-color;
+    $text-color: $dm-text-color;
+    $site-nav-color: $dm-site-nav-color;
+  }
+} @else if $color-scheme-dark {
+    $brand-color: $dm-brand-color;
+    $brand-dimmed: $dm-brand-color-dimmed;
+    $site-nav-color: $dm-site-nav-color;
+    $heading-color: $dm-heading-color;
+    $text-color: $dm-text-color;
+}
