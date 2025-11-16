@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "IBM 6x86 P150+ (1995)"
+date:   2025-09-23 21:50:11 +0100
+categories: microscopy ibm cyrix
+---
+
+![IBM 6x86 p150](/assets/IBM6x86P150+.jpg)
+
+[siliconpr0n:antifuse:ibm:6x86-p150](https://siliconpr0n.org/archive/doku.php?id=antifuse:ibm:6x86-p150)
+
+Although branded as IBM on the packaging, this is actually a Cyrix.
+As Cyrix was a fabless company, they relied on partners like SGS-Thomson and IBM for manufacturing.
+IBM did not have any x86 CPUs in their portfolio, so they made a deal with Cyrix that they can tape out and brand Cyrix designs under their own name [1].
+
+The P150+ model was meant to indicate that the processor's performance was comparable to that of Intel processors clocked at 150MHz.
+That was because the P150+ was actually clocked at 120MHz but consumers were used to associating higher clock rates with increased performance, something known as the [megahertz myth](https://en.wikipedia.org/wiki/Megahertz_myth).
+A year later, Cyrix together with AMD, IBM, and SGS-Thomson formalized that concept into the IPC-based [Performance Rating](https://en.wikichip.org/wiki/processor_performance_rating_(p-rating)_specification) specification, which was dubbed as a metric for "apples-to-apples" comparison between processors.
+
+![IBM 6x86 p150_detail](/assets/IBM6x86P150+_detail.jpg){:style="display:block; margin-left: auto; margin-right: auto; width: 75%"}
+
+Internally, the P150+ IP was codenamed M1RX. The codename signifies the transition to IBM's 5M process that featured five metal layers.
+The previous 3M process by Thomson using three metal layers resulted into larger dies.
+Both processes had a node size of 600nm, but transitioning to 5M allowed Cyrix to reach a clock rate of 120MHz [2].
+On the image above you can see all five metal layers of the P150+.
+
+The P150+ was part of the 6x86 series, which was a socket-compatible direct competitor to the Intel Pentium.
+In fact, executing CPUID with EAX set to zero on a 6x86 CPU would write the ASCII values of "CyrixInstead" into EBX, ECX, and EDX [4], a word play on Intel's famous slogan :)
+
+![6x86 cpuid_table](/assets/6x86_cpuid.png){:style="display:block; margin-left: auto; margin-right: auto"}
+
+Overall, Cyrix had both a turbulent and fascinating history.
+If you are interested in reading about it in detail - including how Quake killed the 6x86, the seventeen(!) lawsuits from Intel, their designs of Geode before it became part of AMD, and how their products influenced the market enough that Intel introduced the Celeron series - check out Bradford Morgan White's excellent writeup on [Abort Retry Fail](https://www.abortretry.fail/p/a-brief-history-of-cyrix).
+
+Many thanks to [Bilal Abboud](https://santoabboud.github.io) for providing me the sample, and to [Sergiu Moga](https://github.com/mogasergiu) for bringing the CPUID easter egg to my attention.
+
+## References
+
+[1] Wikipedia Contributors, [“Cyrix,” Wikipedia](https://en.wikipedia.org/wiki/Cyrix), Sep. 23, 2025.
+
+[2] “Cyrix Next Generation: M1rx,” Halfhill.com, 2025. [https://www.halfhill.com/byte/1995-11_cover-cyrix.html]() (accessed Sept. 23, 2025).
+
+[3] “Introduction IBM 6x86 MICROPROCRSSOR Sixth-Generation Superscalar Superpipelined x86-Compatible CPU,” 1996. Accessed: Sept. 23, 2025. [Online]. Available: [https://datasheets.chipdb.org/IBM/x86/6x86/6x86_ALL.pdf]()
+
+‌
