@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Motorola MC68HC705C8A (1993)"
+date:   2026-08-16 14:25:42 +0100
+categories: microscopy motorola
+---
+
+UMplanFL 10x/0.30 BD:
+
+![Motorola MC68HC705C8A](/assets/motorola_mc68hc705c8a_mz_ms10x_preview.jpg)
+
+Hi-res:
+[siliconpr0n:antifuse:motorola:mc68hc705c8a](https://siliconpr0n.org/archive/doku.php?id=antifuse:motorola:mc68hc705c8a)
