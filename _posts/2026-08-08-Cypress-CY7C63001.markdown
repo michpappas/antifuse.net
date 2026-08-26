@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Cypress CY7C63001 (1999)"
+date:   2026-08-08 23:32:23 +0100
+categories: microscopy cypress
+---
+
+LMPlanFL 5x/0.15:
+
+![Cypress CY7C63001](/assets/cypress_cy7c63001_mz_ms5x_preview.jpg)
+
+UMPlanFL 10x/0.30 BD:
+
+![Cypress CY7C63001](/assets/cypress_cy7c63001_mz_ms10x_preview.jpg)
+
+Hi-res:
+[siliconpr0n:antifuse:cypress:cy7c63001](https://siliconpr0n.org/archive/doku.php?id=antifuse:cypress:cy7c63001)
