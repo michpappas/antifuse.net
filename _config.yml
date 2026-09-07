@@ -34,7 +34,7 @@ plugins:
   - jekyll-remote-theme
 
 minima:
-  skin: auto
+  skin: dark
   social_links:
     - title: antifuse on twitter
       icon: twitter
